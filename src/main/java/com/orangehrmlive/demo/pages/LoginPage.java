@@ -45,6 +45,10 @@ public class LoginPage extends Utility {
 
     }
 
+    public String getTextForNoRecordsFound(){
+        return getTextFromAlert();
+    }
+
    }
 
 

@@ -41,7 +41,6 @@ public class ViewSystemUsersPage extends Utility {
     public void clickOnAdd (){
         clickOnElement(addButton);
     }
-
     public void clickOnDelete(){
         clickOnElement(deleteButton);
     }

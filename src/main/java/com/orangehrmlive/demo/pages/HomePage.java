@@ -10,7 +10,7 @@ public class HomePage extends Utility {
     By pimLink = By.xpath("//a[@href='/web/index.php/pim/viewPimModule']");
     By leaveLink = By.xpath("//a[@href='/web/index.php/leave/viewLeaveModule']");
     By dashboardLink = By.xpath("//span[@class='oxd-text oxd-text--span oxd-main-menu-item--name'][normalize-space()='Dashboard']");
-    By userProfileLogo = By.xpath("//img[@alt='profile picture']");
+    By userProfileLogo = By.xpath("//p[@class='oxd-userdropdown-name']");
     By logoutLink = By.xpath("//a[normalize-space()='Logout']");
 
 

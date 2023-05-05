@@ -85,6 +85,7 @@ public void searchTheDeletedUserAndVerifyTheMessageNoRecordFound(){
     viewSystemUsersPage.selectFromStatus("Disabled");
     viewSystemUsersPage.clickOnSearch();
    //verify message "No Records Found
+    Assert.assertTrue(loginPage.getTextForNoRecordsFound().contains("No Records Found"));
 }
 
 }

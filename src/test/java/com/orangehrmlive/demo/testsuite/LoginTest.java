@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest {
         homePage.clickOnUserProfileLogo();
         homePage.mouseHoverOnLogoutAndClick();
         //Verify the text "Login Panel" is displayed
-        Assert.assertTrue(loginPage.getTextofLoginPanel().contains("Username"));
+       Assert.assertTrue(loginPage.getTextofLoginPanel().contains("Admin"));
 
     }
 }
